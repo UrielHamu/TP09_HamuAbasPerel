@@ -1196,24 +1196,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\49518164\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\48801689\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\49518164\\Desktop\\TP09\\TP09.csproj",
+      "projectUniqueName": "C:\\Users\\48801689\\TP09_HamuAbasPerel\\TP09\\TP09.csproj",
       "projectName": "TP09",
-      "projectPath": "C:\\Users\\49518164\\Desktop\\TP09\\TP09.csproj",
-      "packagesPath": "C:\\Users\\49518164\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\49518164\\Desktop\\TP09\\obj\\",
+      "projectPath": "C:\\Users\\48801689\\TP09_HamuAbasPerel\\TP09\\TP09.csproj",
+      "packagesPath": "C:\\Users\\48801689\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\48801689\\TP09_HamuAbasPerel\\TP09\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\49518164\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\48801689\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1272,7 +1271,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

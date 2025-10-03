@@ -6,7 +6,7 @@ body {
   color: #333;
 }
 
-/* HEADER */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -31,12 +31,12 @@ header img {
   width: auto;
 }
 
-/* MAIN */
+
 main {
   padding: 20px;
 }
 
-/* FOOTER */
+
 footer {
   text-align: center;
   padding: 15px;
@@ -45,7 +45,7 @@ footer {
   margin-top: 40px;
 }
 
-/* CONTENEDORES */
+
 div {
   max-width: 600px;
   margin: 40px auto;
@@ -62,7 +62,6 @@ div img {
   margin: 0 auto 20px;
 }
 
-/* FORMULARIOS */
 form {
   display: flex;
   flex-direction: column;
@@ -85,7 +84,7 @@ form select:focus {
   outline: none;
 }
 
-/* BOTONES */
+
 button, 
 form input[type="submit"] {
   background: #007bff;
@@ -103,7 +102,7 @@ form input[type="submit"]:hover {
   background: #0056b3;
 }
 
-/* LISTA JUGADORES */
+
 h3 {
   background: #f1f1f1;
   margin: 6px 0;
@@ -111,7 +110,7 @@ h3 {
   border-radius: 6px;
 }
 
-/* JUEGO */
+
 #palabra {
   font-size: 1.8rem;
   font-weight: bold;
