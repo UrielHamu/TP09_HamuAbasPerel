@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<div>
+        <img src="~/imagenes/logo.png">
+        <form action='@Url.Action("comenzar", "Home")' method="POST" enctype="application/x-www-form-urlencoded">
+    Ingrese el nombre de usuario: <input type="text" name="username"/>
+    <p> dificultad </p>
+    <select name = "dificultad">
+        <option value="1"> Facil </option>
+        <option value="2"> Avanzado </option>
+        <option value="3"> Dificil </option>
+        <option value="4"> Imposible </option>
+
+       
+    </select>
+        <input type="submit" value="Guardar"/>
+
+    </form>
+    <h2>Lista de jugadores que ya participaron:</h2>
+    @foreach(Usuario usuario in ViewBag.jugadoresCompitieron)
+    {
+        <h3>@usuario.nombre</h3>
+    }
+</div>

@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Juego";
+}
+
+<p id="palabra"></p>
+<input type="hidden" id="intentos" value="0">
+<input type="hidden" id="palabraActual" value="@ViewBag.palabraActual">
+
+<p>Ingrese una palabra</p>
+<input type="text" id="intento">
+<button onclick="intentar()">Arriesgar palabra</button>
+
+<p>Ingrese una letra</p>
+<input type="text" id="letra">
+<button onclick="arriesgarLetra()">Arriesgar letra</button>
+
+<p id="mensaje"></p>
+<div id="accionesFinales"></div>
+
+
+
