@@ -1,23 +1,139 @@
-html {
-  font-size: 14px;
-  min-height: 100%;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
 body {
-  margin: 10px;
-  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #007bff;
+  color: #fff;
+  padding: 15px 30px;
+}
 
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header img {
+  height: 50px;
+  width: auto;
+}
+
+/* MAIN */
+main {
+  padding: 20px;
+}
+
+/* FOOTER */
 footer {
-  margin-top: 10px;
-  padding: 10px;
-  background-color: #f8f9fa;
-  border-top: 1px solid #e9ecef;
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: #ccc;
+  margin-top: 40px;
+}
+
+/* CONTENEDORES */
+div {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+div img {
+  max-width: 120px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+/* FORMULARIOS */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+form input[type="text"], 
+form select {
+  width: 80%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.2s ease;
+}
+
+form input[type="text"]:focus,
+form select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* BOTONES */
+button, 
+form input[type="submit"] {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  font-weight: bold;
+}
+
+button:hover, 
+form input[type="submit"]:hover {
+  background: #0056b3;
+}
+
+/* LISTA JUGADORES */
+h3 {
+  background: #f1f1f1;
+  margin: 6px 0;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+/* JUEGO */
+#palabra {
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+#mensaje {
+  font-size: 1rem;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #d9534f;
+}
+
+#accionesFinales {
+  margin-top: 25px;
+}
+
+#intento, #letra {
+  width: 60%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #bbb;
+  border-radius: 6px;
 }
