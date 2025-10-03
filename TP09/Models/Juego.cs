@@ -72,6 +72,14 @@ public class Juego
     public Juego(){
         listPalabra = new List<Palabra>();
         LlenarListaPalabras();
+        jugadores = new List<Usuario>
+        {
+            new Usuario("Sofia", 3),
+            new Usuario("Lucas", 5),
+            new Usuario("Valentina", 2),
+            new Usuario("Tomas", 6),
+            new Usuario("Martina", 4)
+        };
     }
 
     private string cargarPalabra(int dificultad)
@@ -93,7 +101,8 @@ public class Juego
     }
     public List<Usuario> devolverListaUsuarios()
     {
-        /*jugadores.Sort((usuario1, usuario2) => usuario1.cantidadDeIntentos.CompareTo(usuario2.cantidadDeIntentos));*/
+        
+        jugadores.Sort((usuario1, usuario2) => usuario1.cantidadDeIntentos.CompareTo(usuario2.cantidadDeIntentos));
 
         return jugadores;
     }

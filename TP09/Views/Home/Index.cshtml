@@ -18,13 +18,12 @@
         <input type="submit" value="Guardar"/>
 
     </form>
-    @if(ViewBag.jugadoresCompitieron!= null)
-    {
+    
         <h2>Lista de jugadores que ya participaron:</h2>
     @foreach(Usuario usuario in ViewBag.jugadoresCompitieron)
     {
         <h3>@usuario.nombre</h3>
     }
-    }
+    
     
 </div>
